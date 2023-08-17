@@ -17,6 +17,8 @@ class Index(ListView):
     context_object_name = 'posts'
 
 
+
+
 class PostItem(DetailView):
     model = Post
     template_name = 'post_item.html'

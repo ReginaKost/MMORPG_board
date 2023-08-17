@@ -1,6 +1,7 @@
 from django.urls import path
 from django.shortcuts import redirect
 
+
 from .views import Index, CreatePost, PostItem, EditPost, DeletePost, Responses, Respond, response_accept, \
   response_delete
 
